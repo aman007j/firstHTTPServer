@@ -19,7 +19,7 @@ app.get('/', function(req, res){
 
 const port1 = 3000;
 app.listen(port1, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log(`Server is running on port ${port1}`);
 });
 
 
