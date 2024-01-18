@@ -2,7 +2,7 @@
 ## Overview
 This repository contains two Express.js applications:
 
-1. **Sum Server**: A simple API for calculating the sum of two numbers.
+1. **Sum Server(index.js)**: A simple API for calculating the sum of two numbers.
 2. **Hospital Server**: An application related to hospital operations (no. of healthy/unhealthy kidneys does a patient have).
 ## Installation
 1. Clone this repository.
