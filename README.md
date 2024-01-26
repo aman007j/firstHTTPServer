@@ -1,6 +1,9 @@
 # Express Sum API
 ## Overview
-This is a simple Express.js application that provides an API endpoint for calculating the sum of two numbers. It takes two query parameters (a and b) and returns the sum as a response.
+This repository contains two Express.js applications:
+
+1. **Sum Server(index.js)**: A simple API for calculating the sum of two numbers.
+2. **Hospital Server**: An application related to hospital operations (no. of healthy/unhealthy kidneys does a patient have).
 ## Installation
 1. Clone this repository.
 2. Install dependencies with npm install.
