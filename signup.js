@@ -7,7 +7,7 @@ app.use(express.json());
 schema1 = z.string().email()
 //schema2 = z.string().min(6)
 
-const passwordSchema = z.string().refine(password => {    // HOW TO SET RESTRICTIONS ON PASSWORD USING ZOD
+const passwordSchema = z.string().refine(password => {    // HOW TO SET RESTRICTIONS ON PASSWORD USING ZOD (DOUBT)
     // Check for at least one capital letter, one special character, and a minimum length of 8
     return /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]).{8,}$/.test(password);
 }, { message: "Password must contain at least one capital letter, one special character, and be at least 8 characters long" });
